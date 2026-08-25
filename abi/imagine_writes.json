@@ -1,0 +1,207 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "cancel_world": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "claim_quill": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "create_world": {
+      "params": [
+        [
+          "world_name",
+          "string"
+        ],
+        [
+          "premise",
+          "string"
+        ],
+        [
+          "opening",
+          "string"
+        ],
+        [
+          "character_name",
+          "string"
+        ],
+        [
+          "character_note",
+          "string"
+        ],
+        [
+          "world_laws_json",
+          "string"
+        ],
+        [
+          "objective",
+          "string"
+        ],
+        [
+          "objective_criteria_json",
+          "string"
+        ],
+        [
+          "objective_unlock_scene",
+          "int"
+        ],
+        [
+          "objective_deadline_scene",
+          "int"
+        ],
+        [
+          "max_players",
+          "int"
+        ],
+        [
+          "starting_ink",
+          "int"
+        ],
+        [
+          "turn_window_seconds",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "forfeit_world": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_contract_state": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_player_worlds": {
+      "params": [
+        [
+          "player",
+          "address"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_profile": {
+      "params": [
+        [
+          "player",
+          "address"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_world": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "get_worlds": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": {
+        "$dict": "any"
+      }
+    },
+    "join_world": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ],
+        [
+          "character_name",
+          "string"
+        ],
+        [
+          "character_note",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "start_world": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "submit_passage": {
+      "params": [
+        [
+          "world_name_or_key",
+          "string"
+        ],
+        [
+          "passage",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}

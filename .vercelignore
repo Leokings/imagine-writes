@@ -1,0 +1,13 @@
+.artifacts/
+.pytest_cache/
+.venv/
+abi/
+artifacts/
+contracts/
+deployments/
+tests/
+AGENTS.md
+CLAUDE.md
+gltest.config.yaml
+pyproject.toml
+requirements-dev.txt

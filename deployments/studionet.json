@@ -1,0 +1,12 @@
+{
+  "app": "Imagine Writes",
+  "network": "studionet",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "explorerUrl": "https://explorer-studio.genlayer.com",
+  "architecture": "story-worlds-objective-v2",
+  "contractAddress": "0x443845484eb76CF7689B6Ea9a6EC2B8f90d0898C",
+  "deploymentTransaction": "0x885c6b4fdda97264f5eb19f3d1ed72affbedb88bf11c0c0cd11bc433833799bb",
+  "deployedAt": "2026-08-24",
+  "vercelUrl": "https://imagine-writes.vercel.app"
+}
