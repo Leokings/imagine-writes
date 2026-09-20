@@ -2,6 +2,7 @@
 .env.local
 .next/
 .artifacts/
+.live-evidence/
 .pytest_cache/
 .venv/
 artifacts/

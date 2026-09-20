@@ -11,6 +11,24 @@ Imagine Writes is a validator-native collaborative storytelling game built on Ge
 
 The production contract starts with zero seeded worlds. Every world visible in the Atlas is created by a real wallet and finalized on Studionet.
 
+### Finalized two-wallet production proof
+
+`The Returning Tide 74005d` was created on the production contract by one
+wallet, joined by a second wallet, and completed through two validator-accepted
+scenes. The final accepted-state readback is `COMPLETE / PEACE`, with both
+objective milestones evidenced in canon and one accepted scene attributed to
+each wallet.
+
+- [Create world](https://explorer-studio.genlayer.com/tx/0x46803c261060376d44d54cffb4bf6089ea0f22b9c7721834d6357610ea3eaa5f)
+- [Second wallet joins](https://explorer-studio.genlayer.com/tx/0x63739d1583ab119d61eba216a897adaab151b8ef52dd880b90ab9877ba2316c3)
+- [Validators open Scene One](https://explorer-studio.genlayer.com/tx/0x55439686e4ec873284d268d75a8fa37d71f34103f3a58e8a893334c3b75a2aaf)
+- [Mira's passage enters canon](https://explorer-studio.genlayer.com/tx/0x8a3dbe42dc39e4e2a8f714f69e137d7ffcd4ceda744fa80701b625b577ec3fa8)
+- [Soren completes the objective and peaceful ending](https://explorer-studio.genlayer.com/tx/0x173d7577ea658822ff2cf5c3d04592b025929220dd156d9ae09db04aca29a9ae)
+
+The opt-in, resumable proof runner is
+`tests/integration/test_live_evidence.py`. It keeps its generated test-wallet
+keys outside version control and writes a private-key-free evidence report.
+
 ## Why this is GenLayer-native
 
 - The frontend owns presentation, wallet connection, finalized-state reads, and the private browser-only draft pad.
